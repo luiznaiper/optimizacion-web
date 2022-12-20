@@ -1,4 +1,4 @@
-const CACHE_NAME = 'app-v1'
+  const CACHE_NAME = 'app-v1'
 
 self.addEventListener('fetch', myCustomFetch)
 self.addEventListener('activate', clearCache)
